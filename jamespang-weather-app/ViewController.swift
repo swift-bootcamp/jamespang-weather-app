@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     var api: String = ""
     
     @IBOutlet var city: UILabel!
+    @IBOutlet var icon: UIImageView!
                             
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.city.text = "Taipei"
+        self.icon.image = UIImage(named: "rain_0.jpg")
     }
 
     override func didReceiveMemoryWarning() {
