@@ -67,7 +67,6 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate {
         println("Download finished")
         //var json = NSString(data: data, encoding: NSUTF8StringEncoding)
 
-
     }
     
 
