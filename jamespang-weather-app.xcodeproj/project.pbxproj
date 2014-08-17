@@ -12,7 +12,7 @@
 		1A0C2A52199F214E00FE2DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0C2A50199F214E00FE2DFE /* Main.storyboard */; };
 		1A0C2A54199F214E00FE2DFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0C2A53199F214E00FE2DFE /* Images.xcassets */; };
 		1A0C2A60199F214F00FE2DFE /* jamespang_weather_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C2A5F199F214F00FE2DFE /* jamespang_weather_appTests.swift */; };
-		1A0C2A76199F368D00FE2DFE /* rain_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A0C2A75199F368D00FE2DFE /* rain_0.jpg */; };
+		1A75E36C19A0894300FEA4D3 /* search1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A75E36B19A0894300FEA4D3 /* search1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 		1A0C2A59199F214F00FE2DFE /* jamespang-weather-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jamespang-weather-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0C2A5E199F214F00FE2DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0C2A5F199F214F00FE2DFE /* jamespang_weather_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamespang_weather_appTests.swift; sourceTree = "<group>"; };
-		1A0C2A75199F368D00FE2DFE /* rain_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain_0.jpg; sourceTree = "<group>"; };
+		1A75E36B19A0894300FEA4D3 /* search1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		1A0C2A4A199F214E00FE2DFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A0C2A75199F368D00FE2DFE /* rain_0.jpg */,
 				1A0C2A4B199F214E00FE2DFE /* Info.plist */,
+				1A75E36B19A0894300FEA4D3 /* search1.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A75E36C19A0894300FEA4D3 /* search1.jpg in Resources */,
 				1A0C2A52199F214E00FE2DFE /* Main.storyboard in Resources */,
 				1A0C2A54199F214E00FE2DFE /* Images.xcassets in Resources */,
-				1A0C2A76199F368D00FE2DFE /* rain_0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +401,7 @@
 				1A0C2A65199F214F00FE2DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0C2A66199F214F00FE2DFE /* Build configuration list for PBXNativeTarget "jamespang-weather-appTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +410,7 @@
 				1A0C2A68199F214F00FE2DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
